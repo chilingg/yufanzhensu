@@ -1,0 +1,62 @@
+SplineFontDB: 3.2
+FontName: YuFanZhenSu
+FullName: YuFanZhenSu
+FamilyName: YuFanZhenSu
+Weight: Regular
+Copyright: Copyright (c) 2023, YuFan
+UComments: "2023-10-5: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -102.4
+UnderlineWidth: 51.2
+Ascent: 819
+Descent: 205
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "+gMxmbwAA" 1
+Layer: 1 0 "+Uk1mbwAA" 0
+XUID: [1021 811 374436730 14156]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1696513701
+ModificationTime: 1696515122
+PfmFamily: 49
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 94
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 94
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+OS2CodePages: 00040000.00000000
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 2052 "" "+T1l+QXcffSBPUwAA" "+a2NeOAAA" "" "+T1l+QXcffSBPUwAA" "" "" "" "+T1l+QQAA"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "OFL"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 39 14
+OnlyBitmaps: 1
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65536 0
+EndChars
+EndSplineFont
