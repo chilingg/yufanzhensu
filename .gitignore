@@ -1,3 +1,7 @@
 glyphs/*
 components/*
+comb_data/*
+test*
 *.ttf
+*.otf
+YuFanZhenSu.sfd
