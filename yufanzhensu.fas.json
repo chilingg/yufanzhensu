@@ -13517,7 +13517,7 @@
       ],
       "attrs": {
         "char_box": "left",
-        "in_place": "[[\"* * * o\",{\"h\":[],\"v\":[1,1,3]}]]",
+        "in_place": "[[\"* * * o\",{\"h\":[],\"v\":[1,1,3]}],[\"* * o *\",{\"h\":[],\"v\":[1,1,4]}]]",
         "reduce_alloc": "{\"h\":[],\"v\":[[1,1,2]]}"
       }
     },
@@ -15470,6 +15470,158 @@
       "attrs": {
         "in_place": "[[\"* o * *\",{\"h\":[0,1,1,1,1,0],\"v\":[]}]]"
       }
+    },
+    "克字包围": {
+      "key_paths": [
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                1
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                4,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                2,
+                0
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                3
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                3
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                3
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                5
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                6
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                8
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                6
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                6,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "attrs": {}
     },
     "免": {
       "key_paths": [
@@ -17832,6 +17984,92 @@
       "attrs": {
         "in_place": "[[\"* * * o\",{\"h\":[],\"v\":[1]}]]",
         "reduce_alloc": "{\"h\":[[2]],\"v\":[[1]]}"
+      }
+    },
+    "冃字头": {
+      "key_paths": [
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                5,
+                0
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                5,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                2
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                4,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                4
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                4,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "attrs": {
+        "reduce_alloc": "{\"h\":[[1,2,1],[0,2,0]],\"v\":[]}"
       }
     },
     "冄": {
@@ -25396,7 +25634,9 @@
           ]
         }
       ],
-      "attrs": {}
+      "attrs": {
+        "reduce_alloc": "{\"h\":[[0,1,1,0]],\"v\":[[1,1,2,1]]}"
+      }
     },
     "囱": {
       "key_paths": [
@@ -25590,7 +25830,7 @@
         }
       ],
       "attrs": {
-        "in_place": "[[\"* o * *\",{\"h\":[0,1,1,0],\"v\":[]}],[\"* * x o\",{\"h\":[],\"v\":[1,99]}]]",
+        "in_place": "[[\"x o * *\",{\"h\":[0,1,1,0],\"v\":[]}],[\"* * x o\",{\"h\":[],\"v\":[1,99]}]]",
         "reduce_alloc": "{\"h\":[[0,2,2,0],[0,1,1,0]],\"v\":[]}"
       }
     },
@@ -26298,7 +26538,7 @@
         }
       ],
       "attrs": {
-        "in_place": "[[\"* o * *\",{\"h\":[0,1,1,0],\"v\":[]}],[\"* o * *\",{\"h\":[1,1,1,1],\"v\":[]}]]",
+        "in_place": "[[\"* o * *\",{\"h\":[1,1,1,1],\"v\":[]}]]",
         "reduce_alloc": "{\"h\":[[1,1,1,1],[0,1,1,0]],\"v\":[]}"
       }
     },
@@ -29827,7 +30067,7 @@
         }
       ],
       "attrs": {
-        "reduce_alloc": "{\"h\":[[]],\"v\":[[1,1,1],[0,1,1]]}"
+        "reduce_alloc": "{\"h\":[[]],\"v\":[[1,1,1],[0,1,1],[0,1,0]]}"
       }
     },
     "少": {
@@ -31554,7 +31794,9 @@
           ]
         }
       ],
-      "attrs": {}
+      "attrs": {
+        "reduce_alloc": "{\"h\":[],\"v\":[[1,1]]}"
+      }
     },
     "巜": {
       "key_paths": [
@@ -31609,7 +31851,9 @@
           ]
         }
       ],
-      "attrs": {}
+      "attrs": {
+        "reduce_alloc": "{\"h\":[],\"v\":[[1,1]]}"
+      }
     },
     "川": {
       "key_paths": [
@@ -33684,7 +33928,7 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                1,
                 1
               ]
             },
@@ -33709,7 +33953,7 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                1,
                 3
               ]
             },
@@ -33728,14 +33972,14 @@
               "p_type": "Line",
               "point": [
                 0,
-                4
+                5
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                6,
-                4
+                7,
+                5
               ]
             }
           ]
@@ -33745,7 +33989,7 @@
             {
               "p_type": "Line",
               "point": [
-                5,
+                6,
                 0
               ]
             },
@@ -33759,7 +34003,7 @@
             {
               "p_type": "Line",
               "point": [
-                6,
+                7,
                 1
               ]
             }
@@ -33770,7 +34014,7 @@
             {
               "p_type": "Line",
               "point": [
-                5,
+                6,
                 2
               ]
             },
@@ -33784,7 +34028,7 @@
             {
               "p_type": "Line",
               "point": [
-                6,
+                7,
                 3
               ]
             }
@@ -33803,14 +34047,14 @@
               "p_type": "Line",
               "point": [
                 4,
-                8
+                9
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                6,
-                8
+                7,
+                9
               ]
             }
           ]
@@ -33821,14 +34065,14 @@
               "p_type": "Line",
               "point": [
                 4,
-                6
+                7
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                6,
-                6
+                7,
+                7
               ]
             }
           ]
@@ -34733,7 +34977,7 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 0
               ]
             },
@@ -34751,7 +34995,7 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 2
               ]
             },
@@ -34769,7 +35013,7 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 4
               ]
             },
@@ -34783,7 +35027,10 @@
           ]
         }
       ],
-      "attrs": {}
+      "attrs": {
+        "in_place": "[[\"* o * *\",{\"h\":[2],\"v\":[]}]]",
+        "reduce_alloc": "{\"h\":[[2]],\"v\":[]}"
+      }
     },
     "彧-口一": {
       "key_paths": [
@@ -38580,7 +38827,7 @@
         }
       ],
       "attrs": {
-        "in_place": "[[\"* o * *\",{\"h\":[0,99,99,0],\"v\":[]}],[\"* * * o;* * o *\",{\"h\":[],\"v\":[1,1,2,1]}]]",
+        "in_place": "[[\"x o * *\",{\"h\":[0,99,99,0],\"v\":[]}],[\"* * * o;* * o *\",{\"h\":[],\"v\":[1,1,2,1]}]]",
         "reduce_alloc": "{\"h\":[[0,2,2,0]],\"v\":[[1,1,2,1],[1,1,1,1],[1,1,1,0]]}"
       }
     },
@@ -41293,39 +41540,39 @@
             {
               "p_type": "Line",
               "point": [
-                0,
+                1,
                 0
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                0,
-                1
-              ]
-            },
-            {
-              "p_type": "Line",
-              "point": [
-                4,
-                1
-              ]
-            }
-          ]
-        },
-        {
-          "points": [
-            {
-              "p_type": "Line",
-              "point": [
                 1,
+                1
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                5,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                2,
                 3
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                3,
+                4,
                 3
               ]
             }
@@ -41343,14 +41590,14 @@
             {
               "p_type": "Line",
               "point": [
-                4,
+                5,
                 5
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                4,
+                5,
                 9
               ]
             }
@@ -41645,6 +41892,122 @@
       "attrs": {
         "reduce_alloc": "{\"h\":[[0,1,1,1,1,0]],\"v\":[]}"
       }
+    },
+    "永字包围": {
+      "key_paths": [
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                1,
+                0
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                2
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                2,
+                2
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                2,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                2,
+                4
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                4,
+                2
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "p_type": "Line",
+              "point": [
+                3,
+                5
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                4,
+                8
+              ]
+            },
+            {
+              "p_type": "Line",
+              "point": [
+                7,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "attrs": {}
     },
     "氺": {
       "key_paths": [
@@ -42557,16 +42920,16 @@
         {
           "points": [
             {
-              "p_type": "Vertical",
+              "p_type": "Line",
               "point": [
-                4,
+                6,
                 0
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 1
               ]
             },
@@ -42584,14 +42947,14 @@
             {
               "p_type": "Line",
               "point": [
-                0,
+                1,
                 2
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                0,
+                1,
                 3
               ]
             }
@@ -42602,14 +42965,14 @@
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 2
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                2,
+                3,
                 3
               ]
             }
@@ -42620,21 +42983,24 @@
             {
               "p_type": "Line",
               "point": [
-                4,
+                5,
                 2
               ]
             },
             {
               "p_type": "Line",
               "point": [
-                4,
+                5,
                 3
               ]
             }
           ]
         }
       ],
-      "attrs": {}
+      "attrs": {
+        "in_place": "[[\"* o * *;o * * *\",{\"h\":[0,2,2,0],\"v\":[]}]]",
+        "reduce_alloc": "{\"h\":[[0,2,2,0]],\"v\":[]}"
+      }
     },
     "父": {
       "key_paths": [
@@ -61571,7 +61937,7 @@
         }
       ],
       "attrs": {
-        "reduce_alloc": "{\"h\":[[1,1,1,1]],\"v\":[]}"
+        "reduce_alloc": "{\"h\":[[1,1,1,1]],\"v\":[[1,2,1,1],[1,2,0,0]]}"
       }
     },
     "龙": {
@@ -68321,57 +68687,44 @@
     "min_values": {
       "h": [
         0.083,
-        0.042
+        0.04
       ],
       "v": [
         0.083,
-        0.042
+        0.04
       ]
     },
     "correction_table": {
       "data": {
-        "非": {
-          "tp": {
-            "Scale": "Horizontal"
-          },
-          "components": [
-            {
-              "Char": "非l"
-            },
-            {
-              "Char": "非r"
-            }
-          ]
-        },
         "典": {
           "tp": "Single",
           "components": []
         },
-        "胤": {
+        "齿": {
           "tp": {
-            "Scale": "Horizontal"
+            "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "丿"
+              "Char": "止"
             },
             {
               "Complex": {
                 "tp": {
-                  "Scale": "Vertical"
+                  "Surround": {
+                    "h": "Mind",
+                    "v": "End"
+                  }
                 },
                 "components": [
                   {
-                    "Char": "幺"
+                    "Char": "凵"
                   },
                   {
-                    "Char": "月"
+                    "Char": "人s"
                   }
                 ]
               }
-            },
-            {
-              "Char": "乚"
             }
           ]
         },
@@ -68388,6 +68741,98 @@
             }
           ]
         },
+        "燕-廿灬": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "北l"
+            },
+            {
+              "Char": "口"
+            },
+            {
+              "Char": "北r"
+            }
+          ]
+        },
+        "仒": {
+          "tp": "Single",
+          "components": []
+        },
+        "亾": {
+          "tp": {
+            "Surround": {
+              "h": "Start",
+              "v": "End"
+            }
+          },
+          "components": [
+            {
+              "Char": "𠃊"
+            },
+            {
+              "Char": "人s"
+            }
+          ]
+        },
+        "焉": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "正"
+            },
+            {
+              "Complex": {
+                "tp": {
+                  "Surround": {
+                    "h": "End",
+                    "v": "Start"
+                  }
+                },
+                "components": [
+                  {
+                    "Char": "与字包围"
+                  },
+                  {
+                    "Char": "灬"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "齑": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "文"
+            },
+            {
+              "Complex": {
+                "tp": {
+                  "Scale": "Horizontal"
+                },
+                "components": [
+                  {
+                    "Char": "丨"
+                  },
+                  {
+                    "Char": "韭"
+                  },
+                  {
+                    "Char": "丨"
+                  }
+                ]
+              }
+            }
+          ]
+        },
         "鹿-比": {
           "tp": {
             "Surround": {
@@ -68401,147 +68846,6 @@
             },
             {
               "Char": "鹿s"
-            }
-          ]
-        },
-        "云": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "二"
-            },
-            {
-              "Char": "厶"
-            }
-          ]
-        },
-        "舞": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "無字头"
-            },
-            {
-              "Char": "舛"
-            }
-          ]
-        },
-        "豆": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "一"
-            },
-            {
-              "Char": "口"
-            },
-            {
-              "Char": "䒑"
-            }
-          ]
-        },
-        "舍": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "𠆢"
-            },
-            {
-              "Char": "干"
-            },
-            {
-              "Char": "口"
-            }
-          ]
-        },
-        "画": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "一"
-            },
-            {
-              "Complex": {
-                "tp": {
-                  "Surround": {
-                    "h": "Mind",
-                    "v": "End"
-                  }
-                },
-                "components": [
-                  {
-                    "Char": "凵"
-                  },
-                  {
-                    "Char": "田"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "幸": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "土"
-            },
-            {
-              "Char": "𢆉"
-            }
-          ]
-        },
-        "侯-亻": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "ユ"
-            },
-            {
-              "Char": "矢"
-            }
-          ]
-        },
-        "県": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "目"
-            },
-            {
-              "Char": "一"
-            },
-            {
-              "Char": "小"
-            }
-          ]
-        },
-        "会": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "人"
-            },
-            {
-              "Char": "云"
             }
           ]
         },
@@ -68600,6 +68904,209 @@
             }
           ]
         },
+        "桌-木": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "⺊"
+            },
+            {
+              "Char": "日"
+            }
+          ]
+        },
+        "高-冋": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "亠"
+            },
+            {
+              "Char": "口"
+            }
+          ]
+        },
+        "壳": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Complex": {
+                "tp": {
+                  "Scale": "Vertical"
+                },
+                "components": [
+                  {
+                    "Char": "士"
+                  },
+                  {
+                    "Char": "冖"
+                  }
+                ]
+              }
+            },
+            {
+              "Char": "几"
+            }
+          ]
+        },
+        "树": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "木"
+            },
+            {
+              "Char": "又"
+            },
+            {
+              "Char": "寸"
+            }
+          ]
+        },
+        "臧": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "爿"
+            },
+            {
+              "Complex": {
+                "tp": {
+                  "Surround": {
+                    "h": "End",
+                    "v": "Start"
+                  }
+                },
+                "components": [
+                  {
+                    "Char": "戈"
+                  },
+                  {
+                    "Char": "臣"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "魚": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "魚字头"
+            },
+            {
+              "Char": "灬"
+            }
+          ]
+        },
+        "克": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "十"
+            },
+            {
+              "Char": "兄"
+            }
+          ]
+        },
+        "穴": {
+          "tp": "Single",
+          "components": []
+        },
+        "并": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "丷"
+            },
+            {
+              "Char": "开"
+            }
+          ]
+        },
+        "呙": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "口"
+            },
+            {
+              "Char": "内"
+            }
+          ]
+        },
+        "魚字头": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "⺈"
+            },
+            {
+              "Char": "田"
+            }
+          ]
+        },
+        "卵": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "卵l"
+            },
+            {
+              "Char": "卵r"
+            }
+          ]
+        },
+        "幸": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "土"
+            },
+            {
+              "Char": "𢆉"
+            }
+          ]
+        },
+        "舞": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "無字头"
+            },
+            {
+              "Char": "舛"
+            }
+          ]
+        },
         "壶": {
           "tp": {
             "Scale": "Vertical"
@@ -68638,174 +69145,23 @@
             }
           ]
         },
-        "卵": {
-          "tp": {
-            "Scale": "Horizontal"
-          },
-          "components": [
-            {
-              "Char": "卵l"
-            },
-            {
-              "Char": "卵r"
-            }
-          ]
-        },
-        "燕-廿灬": {
-          "tp": {
-            "Scale": "Horizontal"
-          },
-          "components": [
-            {
-              "Char": "北l"
-            },
-            {
-              "Char": "口"
-            },
-            {
-              "Char": "北r"
-            }
-          ]
-        },
-        "仒": {
-          "tp": "Single",
-          "components": []
-        },
-        "臧": {
-          "tp": {
-            "Scale": "Horizontal"
-          },
-          "components": [
-            {
-              "Char": "爿"
-            },
-            {
-              "Complex": {
-                "tp": {
-                  "Surround": {
-                    "h": "End",
-                    "v": "Start"
-                  }
-                },
-                "components": [
-                  {
-                    "Char": "戈"
-                  },
-                  {
-                    "Char": "臣"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "高-冋": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "亠"
-            },
-            {
-              "Char": "口"
-            }
-          ]
-        },
-        "兹": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "䒑"
-            },
-            {
-              "Complex": {
-                "tp": {
-                  "Scale": "Horizontal"
-                },
-                "components": [
-                  {
-                    "Char": "幺"
-                  },
-                  {
-                    "Char": "幺"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "弟": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "丷"
-            },
-            {
-              "Char": "𢎨"
-            }
-          ]
-        },
-        "桌-木": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "⺊"
-            },
-            {
-              "Char": "日"
-            }
-          ]
-        },
-        "無": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "無字头"
-            },
-            {
-              "Char": "灬"
-            }
-          ]
-        },
-        "克": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "十"
-            },
-            {
-              "Char": "兄"
-            }
-          ]
-        },
-        "亾": {
+        "枭": {
           "tp": {
             "Surround": {
-              "h": "Start",
-              "v": "End"
+              "h": "End",
+              "v": "Start"
             }
           },
           "components": [
             {
-              "Char": "𠃊"
+              "Char": "鸟字头"
             },
             {
-              "Char": "人s"
+              "Char": "木"
             }
           ]
         },
-        "壳": {
+        "壹": {
           "tp": {
             "Scale": "Vertical"
           },
@@ -68826,61 +69182,46 @@
               }
             },
             {
-              "Char": "几"
+              "Char": "豆"
             }
           ]
         },
-        "魚": {
+        "会": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "魚字头"
+              "Char": "人"
             },
             {
-              "Char": "灬"
+              "Char": "云"
             }
           ]
         },
-        "焉": {
+        "录": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "正"
+              "Char": "彑s"
             },
             {
-              "Complex": {
-                "tp": {
-                  "Surround": {
-                    "h": "End",
-                    "v": "Start"
-                  }
-                },
-                "components": [
-                  {
-                    "Char": "与字包围"
-                  },
-                  {
-                    "Char": "灬"
-                  }
-                ]
-              }
+              "Char": "氺"
             }
           ]
         },
-        "韭": {
+        "云": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "非"
+              "Char": "二"
             },
             {
-              "Char": "一"
+              "Char": "厶"
             }
           ]
         },
@@ -68897,60 +69238,6 @@
             },
             {
               "Char": "土"
-            }
-          ]
-        },
-        "鱼": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "魚字头"
-            },
-            {
-              "Char": "一"
-            }
-          ]
-        },
-        "呙": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "口"
-            },
-            {
-              "Char": "内"
-            }
-          ]
-        },
-        "齿": {
-          "tp": {
-            "Scale": "Vertical"
-          },
-          "components": [
-            {
-              "Char": "止"
-            },
-            {
-              "Complex": {
-                "tp": {
-                  "Surround": {
-                    "h": "Mind",
-                    "v": "End"
-                  }
-                },
-                "components": [
-                  {
-                    "Char": "凵"
-                  },
-                  {
-                    "Char": "人s"
-                  }
-                ]
-              }
             }
           ]
         },
@@ -68982,10 +69269,6 @@
             }
           ]
         },
-        "穴": {
-          "tp": "Single",
-          "components": []
-        },
         "有": {
           "tp": {
             "Scale": "Vertical"
@@ -68999,45 +69282,135 @@
             }
           ]
         },
-        "壹": {
+        "豆": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
+            {
+              "Char": "一"
+            },
+            {
+              "Char": "口"
+            },
+            {
+              "Char": "䒑"
+            }
+          ]
+        },
+        "県": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "目"
+            },
+            {
+              "Char": "一"
+            },
+            {
+              "Char": "小"
+            }
+          ]
+        },
+        "侯-亻": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "ユ"
+            },
+            {
+              "Char": "矢"
+            }
+          ]
+        },
+        "非": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "非l"
+            },
+            {
+              "Char": "非r"
+            }
+          ]
+        },
+        "舍": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "𠆢"
+            },
+            {
+              "Char": "干"
+            },
+            {
+              "Char": "口"
+            }
+          ]
+        },
+        "無": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "無字头"
+            },
+            {
+              "Char": "灬"
+            }
+          ]
+        },
+        "画": {
+          "tp": {
+            "Scale": "Vertical"
+          },
+          "components": [
+            {
+              "Char": "一"
+            },
             {
               "Complex": {
                 "tp": {
-                  "Scale": "Vertical"
+                  "Surround": {
+                    "h": "Mind",
+                    "v": "End"
+                  }
                 },
                 "components": [
                   {
-                    "Char": "士"
+                    "Char": "凵"
                   },
                   {
-                    "Char": "冖"
+                    "Char": "田"
                   }
                 ]
               }
-            },
-            {
-              "Char": "豆"
             }
           ]
         },
-        "录": {
+        "鱼": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "彑s"
+              "Char": "魚字头"
             },
             {
-              "Char": "氺"
+              "Char": "一"
             }
           ]
         },
-        "并": {
+        "弟": {
           "tp": {
             "Scale": "Vertical"
           },
@@ -69046,17 +69419,17 @@
               "Char": "丷"
             },
             {
-              "Char": "开"
+              "Char": "𢎨"
             }
           ]
         },
-        "齑": {
+        "兹": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "文"
+              "Char": "䒑"
             },
             {
               "Complex": {
@@ -69065,45 +69438,54 @@
                 },
                 "components": [
                   {
-                    "Char": "丨"
+                    "Char": "幺"
                   },
                   {
-                    "Char": "韭"
-                  },
-                  {
-                    "Char": "丨"
+                    "Char": "幺"
                   }
                 ]
               }
             }
           ]
         },
-        "魚字头": {
+        "胤": {
+          "tp": {
+            "Scale": "Horizontal"
+          },
+          "components": [
+            {
+              "Char": "丿"
+            },
+            {
+              "Complex": {
+                "tp": {
+                  "Scale": "Vertical"
+                },
+                "components": [
+                  {
+                    "Char": "幺"
+                  },
+                  {
+                    "Char": "月"
+                  }
+                ]
+              }
+            },
+            {
+              "Char": "乚"
+            }
+          ]
+        },
+        "韭": {
           "tp": {
             "Scale": "Vertical"
           },
           "components": [
             {
-              "Char": "⺈"
+              "Char": "非"
             },
             {
-              "Char": "田"
-            }
-          ]
-        },
-        "枭": {
-          "tp": {
-            "Surround": {
-              "h": "End",
-              "v": "Start"
-            }
-          },
-          "components": [
-            {
-              "Char": "鸟字头"
-            },
-            {
-              "Char": "木"
+              "Char": "一"
             }
           ]
         }
@@ -69145,6 +69527,9 @@
           },
           "兴": {
             "Char": "兴字头"
+          },
+          "冃": {
+            "Char": "冃字头"
           },
           "卯": {
             "Char": "卯字头"
@@ -69289,6 +69674,9 @@
           "元": {
             "Char": "元字包围"
           },
+          "克": {
+            "Char": "克字包围"
+          },
           "夊": {
             "Char": "夊字包围"
           },
@@ -69309,6 +69697,9 @@
           },
           "毛": {
             "Char": "毛字包围"
+          },
+          "永": {
+            "Char": "永字包围"
           },
           "爪": {
             "Char": "爪字包围"
@@ -69408,7 +69799,7 @@
         "note": "空接点（㫃伏菹）"
       },
       {
-        "regex": "h;real:.r;[^-]*-([^;]*,,;len:[^;];real:r.;,+[^,]*,|,[^;]*,;len:[^;];real:r.;[^,]+,,+)-[^;]*;len:[2-9];",
+        "regex": "h;real:.r;[^-]*-([^;]*,,;len:[^;];real:r.;,+[^,82]*,|,[^;]*,;len:[^;];real:r.;[^,82]+,,+)-[^;]*;len:[2-9];",
         "val": 0,
         "note": "竖空接长点（阻）"
       },
@@ -69582,11 +69973,11 @@
       "v": 0.0
     },
     "surround_scale": {
-      "h": 0.0,
-      "v": 0.0
+      "h": 0.4,
+      "v": 0.6
     },
     "reduce_trigger": {
-      "h": 0.07,
+      "h": 0.072,
       "v": 0.07
     }
   }
